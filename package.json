@@ -1,0 +1,31 @@
+{
+  "name": "@mapc/eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint config for use in MAPC web apps",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MAPC/eslint-config"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "MAPC Digital Services",
+  "license": "MIT",
+  "dependencies": {
+    "@eslint/js": "^9.9.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "globals": "^15.9.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 9"
+  }
+}
