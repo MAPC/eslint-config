@@ -1,11 +1,11 @@
 {
   "name": "@mapc/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint config for use in MAPC web apps",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MAPC/eslint-config"
+    "url": "git+https://github.com/MAPC/eslint-config.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
