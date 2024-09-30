@@ -29,6 +29,8 @@ Add as a dev dependency: `yarn add -D @mapc/eslint-config`
 
 Requires `eslint >= 9` as a peer dependency: `yarn add -D 'eslint@>=9'`
 
+To use this in conjunction with `prettier`: `yarn add -D prettier`
+
 The ESLint docs have a [section on using shared configs](https://eslint.org/docs/latest/use/configure/configuration-files#using-a-shareable-configuration-package).
 
 For most of our projects, that means creating a `eslint.config.js` at the project root, possibly using this snippet as a starting point:
