@@ -1,6 +1,6 @@
 {
   "name": "@mapc/eslint-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "ESLint config for use in MAPC web apps",
   "type": "module",
   "main": "index.js",

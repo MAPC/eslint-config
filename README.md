@@ -38,13 +38,7 @@ For most of our projects, that means creating a `eslint.config.js` at the projec
 ```js
 import eslintConfig from "@mapc/eslint-config";
 
-export default [
-  {
-    plugins: {
-      "mapc-eslint-config": eslintConfig,
-    },
-  },
-];
+export default eslintConfig;
 ```
 
 For guidance on combining this ESLint config with other configs/plugins, or to override particular rules, see [these ESLint docs on combining configs](https://eslint.org/docs/latest/use/configure/combine-configs). 
