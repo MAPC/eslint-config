@@ -41,4 +41,10 @@ import eslintConfig from "@mapc/eslint-config";
 export default eslintConfig;
 ```
 
+You should also add a `.editorconfig` file which specifies the 160-character line length for Prettier:
+```
+[*]
+max_line_length = 160
+```
+
 For guidance on combining this ESLint config with other configs/plugins, or to override particular rules, see [these ESLint docs on combining configs](https://eslint.org/docs/latest/use/configure/combine-configs). 
